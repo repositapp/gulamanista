@@ -1,0 +1,102 @@
+body.login-page {
+   background-image: url(../../themes/img/bg-login.jpg) !important;
+   background-size: cover;
+   background-position: center;
+   text-align: center;
+}
+
+.page-login {
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   overflow: hidden;
+   background-attachment: fixed;
+   /* background: linear-gradient(to bottom right, rgb(46 138 179 / 80%), rgb(118 127 202 / 80%)); */
+
+   background: -webkit-linear-gradient(to bottom right, rgb(46 138 179 / 80%), rgb(118 127 202 / 80%));
+   background: -o-linear-gradient(to bottom right, rgb(46 138 179 / 80%), rgb(118 127 202 / 80%));
+   background: -moz-linear-gradient(to bottom right, rgb(46 138 179 / 80%), rgb(118 127 202 / 80%));
+   background: linear-gradient(to bottom right, rgb(46 138 179 / 80%), rgb(118 127 202 / 80%));
+}
+
+hr {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 0;
+   border-top: 1px solid #eee;
+   height: 0;
+   -webkit-box-sizing: content-box;
+   -moz-box-sizing: content-box;
+   box-sizing: content-box;
+}
+
+.login-logo>a>img {
+   display: unset;
+   max-width: 100%;
+   max-width: 250px;
+   height: auto;
+}
+
+.login-box, .register-box {
+   width: 360px;
+   margin: 8% auto;
+}
+
+.login-box-body, .register-box-body {
+   background: #fff;
+   padding: 30px;
+   border-top: 0;
+   color: #666;
+   border-radius: 10px;
+}
+
+.login-title-box {
+   overflow: hidden;
+   text-align: center !important;
+}
+
+.title-login {
+   font-size: 14px;
+   color: #999;
+}
+
+.login-title-box>a>img {
+   display: unset;
+   max-width: 100%;
+   max-width: 270px;
+   height: auto;
+}
+
+.title-login > h1 {
+   font-size: 20px;
+   color: #4eb5f0;
+   margin-top: 5px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.title-login > h3 {
+   font-size: 12px;
+   color: #999;
+   margin-top: 0;
+   text-transform: uppercase;
+}
+
+.login-form {
+   text-align: center;
+}
+
+.footer-login-form {
+   font-size: 14px;
+   padding-top: 10px;
+   color: #999;
+}
+
+.footer-login-form>a {
+   color: #999;
+   text-transform: uppercase;
+}
